@@ -19,7 +19,7 @@
 
 # FAQ
 ## Fast start? (using LGSL as PHP library)
-1. [Download ZIP](https://github.com/tltneon/lgsl/archive/master.zip) and extract or download via Composer: `composer require tltneon/lgsl`
+1. [Download ZIP]([https://github.com/tltneon/lgsl/archive/master.zip](https://github.com/HarveyWNvm/LGSL-V6.2.0)) and extract or download via Composer: `composer require tltneon/lgsl`
 2. Include `lgsl_class.php` and query data from server using `lgsl_query_live(protocol, ip, connect_port, query_port, software_port, flags)` function, where:
 **protocol** - _server query protocol_, **ip** - _your server ip_, **connect_port** - _server connection port_, **query_port** - _server query port_, **software_port** - _server software port (mostly equal to 0)_, **flags** - _"s" for main info, "e" for extra data and settings, "p" for players data_.<br /><br />
 **Example of using LGSL:**<br />
